@@ -16,7 +16,7 @@ import os
 
 # 設置日誌系統
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 # 從環境變量獲取 OpenAI API 金鑰
 api_key = os.getenv('OPENAI_API_KEY')
